@@ -1,11 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
 .logo {
   width: 200px;
 }
@@ -42,51 +34,158 @@
   border-radius: 50%;
 }
 
-.hotel-list {
-  margin: 50px 100px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 30px;
+.hotel {
+  background-color: rgb(51, 35, 35);
+  color: white;
 }
 
-.hotel-card {
-  box-shadow: 9px 7px 20px rgb(195 193 193);
+.hotel-all-details {
+  padding: 20px 0px 20px 132px;
+}
+
+.extra-bold {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.main-block {
   display: flex;
-  flex-direction: column;
-  width: auto;
+}
+
+.main-left {
+  width: 70%;
 }
 
 .hotel-details {
-  line-height: 30px;
-  margin: 0px 20px
-}
-
-.hotel-img {
-  width: 100%;
-}
-
-.hotel-img > img {
-  width: 100%;
-  height: 100%;
+  font-size: xx-small;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 15px;
 }
 
 .hotel-name {
-  font-size: 20px;
-  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.hotel-add {
+.food-card {
+  margin: 20px 0px;
+  padding-bottom: 18px;
+  border-bottom: 2px solid rgb(223, 222, 222);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food {
+  margin: 20px 132px;
+}
+
+.food-details {
+  line-height: 23px;
+}
+
+.order-now {
+  margin-bottom: 5px;
+}
+
+.food-name {
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.food-varieties {
+  color: grey;
   font-size: 12px;
+}
+
+.food-amt {
+  color: grey;
+}
+
+.add-btn {
+  padding: 5px 25px;
+  color: rgb(173, 163, 169);
+  border: 2px solid rgb(173, 163, 169);
+  background-color: white;
+}
+
+.main-right {
+  background-color: rgb(242, 242, 242);
+  width: 30%;
+  padding: 40px 35px;
+}
+
+.cart-head {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.cart-food-card {
+  font-weight: lighter;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgb(173, 163, 169);
+}
+
+.cart-food-name {
+  font-size: small;
+  margin-bottom: 10px;
+}
+
+.food-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 2px;
+  width: calc(100% / 3);
+  border: 2px solid grey;
+  color: #000;
+  background-color: rgb(224, 224, 224);
+}
+
+.food-cnt-no {
+  padding-bottom: 1px;
+  width: calc(100% / 3);
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+
+.food-cnt-no > p {
+  padding-left: 8px;
+}
+
+.tot-wrapper,
+.additional-amt-wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.food-bill {
+  line-height: 30px;
+}
+
+.tot-wrapper {
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.additional-amt-wrapper {
   font-weight: lighter;
 }
 
-.hotel-loc {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  border-bottom: 2px solid rgb(240, 231, 231);
-}
-
-.hotel-reviews {
-  float: right;
+.pay-now-btn {
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 10px 0px;
+  background-color: rgb(175, 28, 15);
 }
